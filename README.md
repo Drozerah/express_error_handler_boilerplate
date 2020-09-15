@@ -56,7 +56,7 @@ Utilities
 ---------
 
 - This code base comes with a `.env_example` file. Just rename it to `.env`, then you are ready to use environment variables separated from your code. Also, the `.gitignore` file prevent you to commit your `.env` file...
-- The boiler plate comes with a `rest.http` file. You can use it as an alternative to [Postman](https://www.postman.com/) to make requests with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) VSCode extension.
+- The boilerplate comes with a `rest.http` file. You can use it as an alternative to [Postman](https://www.postman.com/) to make requests with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) VSCode extension.
 - __Happy coding !__
 
 __Author:__
