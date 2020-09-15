@@ -1,0 +1,33 @@
+{
+  "name": "express_error_handler_boilerplate",
+  "version": "1.0.0",
+  "description": "Setting up Express with Error handler boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "error handler"
+  ],
+  "author": "Thomas G. aka Drozerah <drozerah@gmail.com> (https://github.com/Drozerah)",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
